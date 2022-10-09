@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate-Talks</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Vast+Shadow&display=swap');
+        body
+        {
+            padding:0px;
+            max-width:600px;
+            margin:auto;
+            text-align:center;
+            font-family: 'Gemunu Libre', sans-serif;
+            font-family: 'Vast Shadow', cursive;
+            background-color: blanchedalmond;
+            margin-bottom: 0px;
+
+        }
+
+        #btn-translate
+        {
+            border-radius: 0.5rem;
+            height:80px;
+            width:200px;
+            margin:1rem;
+            background-color:blanchedalmond;
+            color:black;
+            font-family: 'Gemunu Libre', sans-serif;
+            font-family: 'Vast Shadow', cursive;
+            font-weight: 800;
+        }
+
+        #txt-output
+        {
+            border:2px solid black;
+            width: 500px;
+            max-width: 500px;
+            margin:auto;
+            margin-top:2rem;
+            height:8rem;
+            text-align: left;
+        }
+
+        #about
+        {
+             margin:1rem;
+             margin-bottom: 0px;
+        }
+
+        #txt-input
+        {
+            font-family: 'Gemunu Libre', sans-serif;
+            font-family: 'Vast Shadow', cursive;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <h1>Pirate Talks</h1>
+    <textarea id="txt-input" style="width: 500px; height:8rem; border:2px solid black; margin:2rem;"placeholder="Please enter your sentence here and we will convert it for you."></textarea>
+    <button id="btn-translate">Translate To Pirate</button>
+    <div>You can see the translated below 🏴</div>
+    <div id="txt-output" ></div>
+    <div id="about">
+        <h2>about</h2>
+        <p>This is the language spoken by pirates. They maintain a language that can be understood by normal people.</p>
+    </div>
+    <script src="/index.js" type="text/javascript"></script>
+</body>
+</html>
